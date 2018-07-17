@@ -1,0 +1,95 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin: 0 20%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-left: 25px;
+    width: 65%;
+}
+
+.form:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.title {
+    font-size: 24pt;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+.url-outside {
+    font-size: 18pt;
+}
+
+.url-inside {
+    padding-top: 7px;
+    font-size: 12pt;
+}
+
+.method {
+    color: red;
+    padding: 10px 0;
+    text-align: left;
+}
+
+
+.bodySection {
+    font-size: 20pt;
+    padding-top: 10px;
+}
+
+.bodyName {
+    font-size: 16pt;
+    padding-top:15px;
+}
+
+.submit {
+    margin: 15px 0px;
+    padding: 10px 10px;
+    background-color: white;
+    font-size: 10pt;
+    background-color: #C4C4C4;
+}
+
+.response {
+    font-size: 14pt;
+}
+
+.responseArea {
+    margin-top: 10px;
+    background-color: #F2F2F2;
+    border: 2px solid #A0A0A0;
+    width: 96%;
+    height: 100px;
+    overflow: scroll;
+    margin-bottom: 20px;
+    font-size: 12pt;
+    word-wrap: break-word;
+}
+
+.body[required="true"]::before {
+    content: "*";
+    color: red;
+}
+
+.body[required] label:after {
+    content: " *";
+    color: red;
+}
+
+span {
+    color: red;
+}
+
+input {
+    height: 20px;
+}
